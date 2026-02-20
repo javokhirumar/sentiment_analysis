@@ -4,7 +4,7 @@ import torch
 import torch.nn.functional as F
 
 # Cache model so it loads only once
-@st.cache_resource
+@st.cache_resource(ttl=3600)
 def load_model():
     model = AutoModelForSequenceClassification.from_pretrained(
         "javokhirumar/sentiment-analysis"
