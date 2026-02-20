@@ -6,7 +6,7 @@ We compared a custom RNN and a Transformer (DistilBERT) for IMDB sentiment analy
 
 ## Try the live app
 
-You can test the model with this Streamlit app: [Sentiment Demo](https://sentiment-demo.streamlit.app/)
+You can test the model with this Streamlit app: [Sentiment Prediction](https://sentiment-demo.streamlit.app/)
 
 ## Repo contents
 
